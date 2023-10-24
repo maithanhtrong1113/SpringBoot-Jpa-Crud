@@ -30,7 +30,7 @@ public class SpringBootCrudApplication {
     }
 
     public void createNewStudent(StudentDAO studentDAO) {
-        Student newStudent = new Student("Trong", "Mai", "maithanhtrong1113@gmail.com");
+        Student newStudent = new Student("Mai", "Thanh Trong", "maithanhtrong1113@gmail.com");
         studentDAO.saveStudent(newStudent);
     }
 
